@@ -1,0 +1,36 @@
+/* Estilização menu navegação melhorada */
+
+.cabecalho_nav {
+    background-color: var(--cor-fundo); /* Cor mais vibrante de rosa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 60px; /* Aumentei um pouco a altura */
+    
+}
+
+.cabecalho_nav_ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Distribui os itens uniformemente */
+    width: 100%; /* Ocupa toda a largura disponível */
+}
+
+.cabecalho_nav_li {
+    margin-right: 0; /* Removi o espaçamento entre os itens da lista */
+}
+
+.cabecalho_nav_a {
+    text-decoration: none;
+    color: var(--cor-destaque3); /* Cor de destaque mais forte */
+    padding: 10px;
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s, border 0.3s; /* Transição suave para várias propriedades */
+}
+
+.cabecalho_nav_a:hover {
+    background-color: var(--cor-destaque3); /* Cor de destaque ao passar o mouse */
+    color: white;
+    border: 2px solid white; /* Borda branca ao passar o mouse */
+}

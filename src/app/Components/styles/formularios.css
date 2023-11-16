@@ -1,0 +1,55 @@
+/* Estilo geral do formulário */
+.formulario {
+    background-color: #fff; /* Fundo branco */
+    padding: 20px; /* Espaçamento interno de 20 pixels */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para as bordas dos campos do formulário */
+.formulario_bordas {
+    border: 1px solid #ddd; /* Borda sólida cinza claro */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 10px; /* Espaçamento interno de 10 pixels */
+    margin-bottom: 15px; /* Margem inferior de 15 pixels */
+}
+
+/* Estilo para a legenda do formulário */
+.formulario_legenda {
+    font-size: 1.2em; /* Tamanho da fonte 1.2 vezes maior que o padrão */
+    font-weight: bold; /* Texto em negrito */
+    color: #333; /* Cor do texto é um tom mais escuro de cinza */
+}
+
+/* Estilo para as etiquetas dos campos do formulário */
+.formulario_label {
+    display: block; /* Torna a etiqueta um bloco, ocupando a largura total disponível */
+    margin-top: 10px; /* Margem superior de 10 pixels */
+    margin-bottom: 5px; /* Margem inferior de 5 pixels */
+}
+
+/* Estilo para os campos de entrada do formulário */
+.formulario_input {
+    width: 100%; /* Largura total do contêiner pai */
+    padding: 8px; /* Espaçamento interno de 8 pixels */
+    margin-bottom: 10px; /* Margem inferior de 10 pixels */
+    box-sizing: border-box; /* A largura e altura incluem o preenchimento e a borda */
+    border: 1px solid #ccc; /* Borda sólida cinza claro */
+    border-radius: 4px; /* Cantos arredondados */
+}
+
+/* Estilo para o botão de envio do formulário */
+.botao_enviar {
+    background-color: var(--cor-destaque2);
+    color: white; /* Cor do texto branco */
+    padding: 10px 15px; /* Espaçamento interno de 10 pixels (vertical) e 15 pixels (horizontal) */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Cantos arredondados */
+    cursor: pointer; /* Altera o cursor para uma mão ao passar o mouse */
+    font-size: 1em; /* Tamanho da fonte padrão */
+}
+
+/* Estilo para o botão de envio do formulário ao passar o mouse */
+.botao_enviar:hover {
+    background-color: var(--cor-destaque3); /* Cor de fundo verde um tom mais escuro */
+}

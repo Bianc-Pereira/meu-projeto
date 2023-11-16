@@ -1,0 +1,18 @@
+/* Estilização do Footer */
+
+.rodape {
+    background-color: var(--cor-destaque2); /* Cor de fundo escura */
+    color: white; /* Cor do texto branco */
+    padding: 10px; /* Espaçamento interno de 20 pixels */
+    text-align: center; /* Alinhamento centralizado do conteúdo */
+}
+
+.rodape_img{
+    max-width: 100px; /* Largura máxima da imagem de 100 pixels */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+.rodape_h2 {
+    margin-top: 10px; /* Margem superior de 10 pixels */
+    font-size: 1.5em; /* Tamanho da fonte 1.5 vezes maior que o padrão */
+}
